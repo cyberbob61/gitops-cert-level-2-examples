@@ -23,7 +23,7 @@ spec:
       jsonPointers:
         - /spec/replicas
 
-  # Sync policy
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
+      - RespectIgnoreDifferences=true
